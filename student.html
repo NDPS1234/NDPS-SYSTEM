@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student List - NDPS</title>
+    <style>
+        body {font-family:Arial; margin:0; background:linear-gradient(135deg,#1e3c72,#2a5298); color:white; text-align:center;}
+        .header {background:#0d1b2a; padding:20px; font-size:28px; font-weight:bold;}
+        table {margin:40px auto; border-collapse:collapse; width:80%; background:white; color:black; border-radius:10px; overflow:hidden;}
+        th, td {padding:12px; border:1px solid #ddd;}
+        th {background:#1e3c72; color:white;}
+        tr:hover {background:#f2f2f2;}
+        .btn {display:inline-block; margin:20px; padding:10px 20px; background:orange; color:white; text-decoration:none; border-radius:6px;}
+        .btn:hover {background:darkorange;}
+        .id-card {width:200px; height:250px; border:1px solid #000; margin:10px; padding:10px; display:inline-block; background:white; color:black; border-radius:10px;}
+        .id-card img {width:100%; height:120px; border-radius:5px;}
+    </style>
+</head>
+<body>
+<div class="header">NEW DIVINE PUBLIC SCHOOL - Students</div>
+<a class="btn" href="dashboard.html">Back to Dashboard</a>
+<table>
+<tr>
+<th>S.No</th>
+<th>Student Name</th>
+<th>Roll No</th>
+<th>Photo</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Rohit Kumar</td>
+<td>101</td>
+<td><img src="images/student1.jpg" width="50"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Priya Singh</td>
+<td>102</td>
+<td><img src="images/student2.jpg" width="50"></td>
+</tr>
+</table>
+
+<h3>ID Card Preview</h3>
+<div class="id-card">
+    <img src="images/student1.jpg">
+    <h4>Rohit Kumar</h4>
+    <p>Roll No: 101</p>
+</div>
+
+<div class="id-card">
+    <img src="images/student2.jpg">
+    <h4>Priya Singh</h4>
+    <p>Roll No: 102</p>
+</div>
+</body>
+</html>
